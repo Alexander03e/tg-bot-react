@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom'
 import styled from 'styled-components'
 
 const CardWrapper = styled.div`
@@ -21,11 +22,11 @@ const cards = [1,2,3,4,5,6,7,8,9]
 export const Main = () => {
 
   return <>
-  <h2 style={{marginTop: '2em'}}>товары: </h2>
+  <h2>товары: </h2>
     <CardWrapper>
       
       {cards.map(card => {
-        return <Card>товар {card}</Card>
+        return <NavLink to={`${card}`}><Card><p>товар {card}</p></Card></NavLink>
       })}
     </CardWrapper>
   </>

@@ -5,6 +5,8 @@ import { GlobalStyle } from './global-styles';
 import { Main } from './components/Main/Main';
 import styled from 'styled-components'
 import './index.css'
+import { MainRoutes } from './routes/MainRoutes';
+
 function App() {
 
   useEffect(() => {
@@ -20,11 +22,10 @@ function App() {
 
   return (
     <>
-    <Header />
     <GlobalStyle />
+    <Header />
     <Container>
-      <Main />
-      
+      <MainRoutes />
     </Container>
     </>
   )
