@@ -1,13 +1,17 @@
 import { useRoutes} from 'react-router-dom'
-import { Main } from '../components/Main/Main'
+import { Catalog } from '../components/Catalog/Catalog'
 import { CardDetail } from '../components/Card/CardDetail'
+import { Arrive } from '../pages/Arrive'
+import { About } from '../pages/About'
 
 
 export const MainRoutes = () => {
   
   const basedPath = [
-    {path: '/', element: <Main />},
-    {path: '/:itemid', element: <CardDetail />}
+    {path: '/catalog', element: <Catalog />},
+    {path: '/catalog/:itemid', element: <CardDetail />},
+    {path: '/arrive', element: <Arrive />},
+    {path: '/about', element: <About />}
   ]
   
   return useRoutes(basedPath)

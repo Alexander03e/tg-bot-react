@@ -19,7 +19,7 @@ const Card = styled.div`
 
 const cards = [1,2,3,4,5,6,7,8,9]
 
-export const Main = () => {
+export const Catalog = () => {
 
   return <>
   <h2>товары: </h2>

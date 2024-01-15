@@ -31,9 +31,9 @@ export const Header = () => {
 
   return (
     <HeaderStyled>
-      <NavLink to='/'><h2>каталог</h2></NavLink>
+      <NavLink to='/catalog'><h2>каталог</h2></NavLink>
       <NavLink to='/arrive'><h2>доставка</h2></NavLink>
-      <NavLink to='/pay'><h2>оплата</h2></NavLink>
+      <NavLink to='/about'><h2>о бренде</h2></NavLink>
       {/* <p style={{cursor:'pointer'}} onClick={onClose}>закрыть окно</p> */}
       {/* <CloseButton onClick={onClose}>Закрыть</CloseButton> */}
     </HeaderStyled>

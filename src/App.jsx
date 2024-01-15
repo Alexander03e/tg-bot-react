@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react'
 const tg = window.Telegram.WebApp;
 import { Header } from './components/Header/Header';
 import { GlobalStyle } from './global-styles';
-import { Main } from './components/Main/Main';
 import styled from 'styled-components'
 import './index.css'
 import { MainRoutes } from './routes/MainRoutes';
