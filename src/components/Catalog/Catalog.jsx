@@ -26,7 +26,7 @@ export const Catalog = () => {
     <CardWrapper>
       
       {cards.map(card => {
-        return <NavLink to={`${card}`}><Card><p>товар {card}</p></Card></NavLink>
+        return <NavLink to={`/catalog/${card}`}><Card><p>товар {card}</p></Card></NavLink>
       })}
     </CardWrapper>
   </>
