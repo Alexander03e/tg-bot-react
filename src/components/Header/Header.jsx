@@ -5,10 +5,12 @@ const HeaderStyled = styled.div`
   display: flex;
   flex-direction:row;
   gap:1.5em;
+  justify-content:space-between;
+  padding: 0.2em 0.7em 0.5em 0.7em;
   background-color: #37352f;
   align-items: center;
   // padding:1px;
-  p{
+  h2{
     color: #feddd0;
   }
 `
@@ -28,10 +30,10 @@ export const Header = () => {
 
   return (
     <HeaderStyled>
-      <NavLink to='/catalog'><p>каталог</p></NavLink>
-      <NavLink to='/arrive'><p>доставка</p></NavLink>
-      <NavLink to='/pay'><p>оплата</p></NavLink>
-      <p style={{cursor:'pointer'}} onClick={onClose}>закрыть окно</p>
+      <NavLink to='/catalog'><h2>каталог</h2></NavLink>
+      <NavLink to='/arrive'><h2>доставка</h2></NavLink>
+      <NavLink to='/pay'><h2>оплата</h2></NavLink>
+      {/* <p style={{cursor:'pointer'}} onClick={onClose}>закрыть окно</p> */}
       {/* <CloseButton onClick={onClose}>Закрыть</CloseButton> */}
     </HeaderStyled>
   )

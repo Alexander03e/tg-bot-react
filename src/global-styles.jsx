@@ -29,6 +29,8 @@ export const GlobalStyle = createGlobalStyle`
     font-size: var(--middle-text-size);
   }
   body{
+    padding:0;
+    margin:0;
     background: #f7d4c6;
   }
   a{

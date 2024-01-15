@@ -19,12 +19,14 @@ function App() {
   `
 
   return (
+    <>
+    <Header />
+    <GlobalStyle />
     <Container>
-      <GlobalStyle />
-      <Header />
       <Main />
       
     </Container>
+    </>
   )
 }
 
