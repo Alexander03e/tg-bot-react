@@ -2,9 +2,9 @@ import {createGlobalStyle} from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle`
   :root {
-    --basic-text-size: 1em;
-    --middle-text-size: 2.7em;
-    --large-text-size: 4em;
+    --basic-text-size: 15px;
+    --middle-text-size: 25px;
+    --large-text-size: 35px;
   }
   p{
     font-family: 'Arial';
@@ -19,12 +19,12 @@ export const GlobalStyle = createGlobalStyle`
     }
   }
   h1{
-    color:white;
+    color:#37352f;
     font-family: 'Arial';
     font-size: var(--large-text-size);
   }
   h2{
-    color:white;
+    color:#37352f;
     font-family: 'Arial';
     font-size: var(--middle-text-size);
   }

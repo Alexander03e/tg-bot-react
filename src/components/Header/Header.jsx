@@ -5,7 +5,12 @@ const HeaderStyled = styled.div`
   display: flex;
   flex-direction:row;
   gap:1.5em;
+  background-color: #37352f;
   align-items: center;
+  // padding:1px;
+  p{
+    color: #feddd0;
+  }
 `
 
 const CloseButton = styled.button`
