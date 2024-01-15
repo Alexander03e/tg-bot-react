@@ -2,7 +2,7 @@ import {createGlobalStyle} from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle`
   :root {
-    --basic-text-size: 2em;
+    --basic-text-size: 1em;
     --middle-text-size: 2.7em;
     --large-text-size: 4em;
   }
