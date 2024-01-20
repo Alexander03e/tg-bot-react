@@ -31,7 +31,7 @@ export const GlobalStyle = createGlobalStyle`
   body{
     padding:0;
     margin:0;
-    background: #f7d4c6;
+    background: rgb(217, 199, 152);
   }
   a{
     text-decoration:none;
